@@ -2,7 +2,7 @@
   "name": "angular2-reddit-base",
   "version": "1.0.0",
   "scripts": {
-    "start": "node_modules/.bin/tsc && concurrently \"npm run node_modules/.bin/tsc:w\" \"npm run lite\" ",
+    "start": "node web.js",
     "lite": "lite-server",
     "tsc": "node_modules/.bin/tsc",
     "tsc:w": "node_modules/.bin/tsc -w",
