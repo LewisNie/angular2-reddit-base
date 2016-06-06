@@ -5,13 +5,13 @@
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
     "postinstall": " npm install -g 'typescript@1.9.0-dev.20160409';typings install",
-    "tsc": "tsc",
-    "tsc:w": "tsc -w",
+    "tsc": "node_modules/.bin/tsc",
+    "tsc:w": "node_modules/.bin/tsc -w",
     "typings": "typings"
   },
   "engines": {
     "node": "4.4.5",
-    "npm":"2.15.5"
+    "npm": "2.15.5"
   },
   "license": "ISC",
   "dependencies": {
@@ -32,6 +32,7 @@
     "rxjs": "5.0.0-beta.6",
     "semantic-ui": "^2.1.8",
     "systemjs": "0.19.27",
+    "typescript": "^1.9.0-dev.20160409",
     "zone.js": "^0.6.12"
   },
   "devDependencies": {
