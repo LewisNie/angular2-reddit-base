@@ -4,7 +4,6 @@
   "scripts": {
     "start": "node_modules/.bin/tsc && concurrently \"npm run node_modules/.bin/tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
-    //"postinstall": "typings install",
     "tsc": "node_modules/.bin/tsc",
     "tsc:w": "node_modules/.bin/tsc -w",
     "typings": "typings"
