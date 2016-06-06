@@ -1,13 +1,6 @@
 {
   "name": "angular2-reddit-base",
   "version": "1.0.0",
-  "scripts": {
-    "start": "node web.js",
-    "lite": "lite-server",
-    "tsc": "node_modules/.bin/tsc",
-    "tsc:w": "node_modules/.bin/tsc -w",
-    "typings": "typings"
-  },
   "engines": {
     "node": "4.4.5",
     "npm": "2.15.5"
